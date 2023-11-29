@@ -1,0 +1,110 @@
+.responsive-img {
+    width: 50%;
+    width: 100%;
+    border-radius: 20px;
+    border:5px solid rgb(158, 158, 158);
+}
+
+.collapsible-body {
+    display: none;
+    border-left: 5px solid #ccc;
+    padding-left: 1rem;
+}
+
+button {
+    text-align: inherit;
+}
+
+.title {
+    padding-bottom: 10px;
+    padding-top : 3%;
+}
+
+.main {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .subtitle {
+    margin: -15px 0px 35px 0px;
+  }
+  
+  .quote {
+    font-weight: bold;
+    font-size: medium;
+    margin: 35px 0px 15px 0px;
+  }
+  
+  .source-quote {
+    font-size: small;
+  }
+  
+  .timeline,
+  .fun-facts {
+    margin: 3rem 0 2rem 0;
+    font-size: x-large;
+  }
+  
+  .date-event {
+    font-size: x-large;
+    padding: 20px 20px 0px 20px;
+  }
+  
+  .description {
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .msg-event {
+    text-align: justify;
+    text-align-last: center;
+  }
+  
+  .link {
+    width: 100%;
+    margin: 0px 0px 25px 0px;
+  }
+  
+  blockquote {
+    border-left: 5px solid rgb(87, 87, 87);
+    padding-left: 1rem;
+  }
+  
+  .page-footer,
+  .pad {
+    margin-right: -14.3%;
+    margin-left: -14.3%;
+    text-align: center;
+  }
+  
+  .world-history-project,
+  .ovelny,
+  .share {
+    font-weight: bold;
+  }
+  
+  .icon {
+    padding: 0px 0px 0px 10px;
+    vertical-align: -3px;
+  }
+
+  .accordion {
+    transition: 0.4s;
+    width: 100%;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
